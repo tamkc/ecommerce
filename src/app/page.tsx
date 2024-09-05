@@ -3,7 +3,6 @@ import Phone from "@/components/Phone";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight, Check, Star } from "lucide-react";
 import Link from "next/link";
-import { Icons } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -14,11 +13,17 @@ export default function Home() {
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28" />
-                <img src="/tiger-phone.png" className="w-full -rotate-6" />
+                <img
+                  src="/tiger-phone.png"
+                  className="w-full -rotate-6"
+                  alt="Tiger with phone"
+                />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Your Design on a{" "}
-                <span className="bg-orange-600 px-2 text-white">Personalized</span>{" "}
+                <span className="bg-orange-600 px-2 text-white">
+                  Personalized
+                </span>{" "}
                 Phone Cover
               </h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
@@ -35,8 +40,8 @@ export default function Home() {
                     High-quality, durable material
                   </li>
                   <li className="flex gap-1.5 items-center text-left">
-                    <Check className="h-5 w-5 shrink-0 text-orange-600" />5-year
-                    printing guarantee
+                    <Check className="h-5 w-5 shrink-0 text-orange-600" />
+                    5-year printing guarantee
                   </li>
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrink-0 text-orange-600" />
@@ -50,27 +55,27 @@ export default function Home() {
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
                     src="/users/user-1.jpg"
-                    alt="user image"
+                    alt=""
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
                     src="/users/user-2.jpg"
-                    alt="user image"
+                    alt=""
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
                     src="/users/user-3.jpg"
-                    alt="user image"
+                    alt=""
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
                     src="/users/user-4.png"
-                    alt="user image"
+                    alt=""
                   />
                   <img
                     className="inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100"
                     src="/users/user-5.png"
-                    alt="user image"
+                    alt=""
                   />
                 </div>
 
@@ -96,10 +101,12 @@ export default function Home() {
               <img
                 src="/your-image.png"
                 className="absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block"
+                alt=""
               />
               <img
                 src="/line.png"
                 className="absolute w-20 -left-6 -bottom-6 select-none"
+                alt="decorative line"
               />
               <Phone className="w-64" imgSrc="/testimonials/demo-1.jpg" />
             </div>
@@ -124,7 +131,7 @@ export default function Home() {
                 ✨
               </span>
             </h2>
-            <img src="/tiger-action.png" className="w-36" />
+            <img src="/tiger-action.png" className="w-36" alt="moving tiger"/>
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
@@ -144,11 +151,11 @@ export default function Home() {
                     offers great protection
                   </span>
                   . I've dropped my phone a couple of times, and it hasn't even
-                  scratched. Plus,{" "}
+                  scratched. Plus{" "}
                   <span className="p-0.5 bg-slate-800 text-white">
                     the fit is perfect
                   </span>
-                  , and the buttons are easy to press. Definitely recommend it!"
+                  and the buttons are easy to press. Definitely recommend it!"
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
