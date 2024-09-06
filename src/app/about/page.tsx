@@ -1,3 +1,4 @@
+import Form from "@/components/Form";
 import Wrapper from "@/components/Wrapper";
 import Image from "next/image";
 
@@ -45,28 +46,21 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="mt-12 text-center">
-          <h3 className="text-2xl font-bold" id="contact">Contact Us</h3>
+          <h3 className="text-2xl font-bold" id="contact">
+            Contact Us
+          </h3>
           <p className="mt-4">
             If you have any questions or need assistance, feel free to reach out
             to us!
           </p>
-          <p className="mt-2">
-            Email:{" "}
-            <a href="mailto:support@tigcase.com" className="text-blue-500">
-              support@tigcase.com
-            </a>
-          </p>
+          <p className="mt-2 justify-center">
+          Email:{" "}
+          <a href="mailto:support@tigcase.com" className="text-blue-500">
+            support@tigcase.com
+          </a>
+        </p>
         </div>
-        <div className="flex justify-center">
-          <Image
-            src="/tiger-astronaut.png"
-            alt="Tiger Astronaut"
-            width={300}
-            height={250}
-            className="mt-6 rounded-lg"
-            priority
-          />
-        </div>
+        <Form></Form>
       </Wrapper>
     </div>
   );
