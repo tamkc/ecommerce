@@ -3,6 +3,7 @@ import Phone from "@/components/Phone";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight, Check, Star } from "lucide-react";
 import Link from "next/link";
+import { Reviews } from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -112,6 +113,7 @@ export default function Home() {
             </div>
           </div>
         </Wrapper>
+        <div></div>
       </section>
 
       {/* value proposition section */}
@@ -131,7 +133,7 @@ export default function Home() {
                 ✨
               </span>
             </h2>
-            <img src="/tiger-action.png" className="w-36" alt="moving tiger"/>
+            <img src="/tiger-action.png" className="w-36" alt="moving tiger" />
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
@@ -215,6 +217,9 @@ export default function Home() {
             </div>
           </div>
         </Wrapper>
+        <div className="pt-16">
+          <Reviews />
+        </div>
       </section>
 
       <section>
