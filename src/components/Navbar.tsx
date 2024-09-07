@@ -39,12 +39,6 @@ export function Navbar() {
                 About
               </Link>
               <Link
-                href="/services"
-                className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-foreground hover:text-primary"
-              >
-                Services
-              </Link>
-              <Link
                 href="/about#contact"
                 className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-foreground hover:text-primary"
               >
@@ -91,12 +85,6 @@ export function Navbar() {
               className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-foreground hover:text-primary"
             >
               About
-            </Link>
-            <Link
-              href="/services"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary-foreground hover:text-primary"
-            >
-              Services
             </Link>
             <Link
               href="/about#contact"
