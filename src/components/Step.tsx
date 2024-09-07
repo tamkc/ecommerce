@@ -56,6 +56,7 @@ const Steps = () => {
                   <div className="flex h-20 w-20 items-center justify-center">
                     <img
                       src={imgPath}
+                      alt=""
                       className={cn(
                         "object-contain h-full w-full",
                         {

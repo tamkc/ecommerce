@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import { ArrowRight, Check, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -93,14 +93,14 @@ export function Navbar() {
               Contact
             </Link>
             <Link
-                className={buttonVariants({
-                  size: "sm",
-                  className: "hover:bg-orange-400 transition duration-200",
-                })}
-                href="/configure/upload"
-              >
-                Create Custom Case <ArrowRight className="h-4 w-4 ml-1.5" />
-              </Link>
+              className={buttonVariants({
+                size: "sm",
+                className: "hover:bg-orange-400 transition duration-200",
+              })}
+              href="/configure/upload"
+            >
+              Create Custom Case <ArrowRight className="h-4 w-4 ml-1.5" />
+            </Link>
           </div>
         </div>
       )}
