@@ -133,7 +133,7 @@ export default function Home() {
                 ✨
               </span>
             </h2>
-            <img src="/tiger-action.png" className="w-36" alt="moving tiger" />
+            <img src="/tiger-3.png" className="w-36" alt="moving tiger" />
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
