@@ -35,6 +35,6 @@ export function constructMetadata({
       images: [{ url: image }],
     },
     icons,
-    // metadataBase: new URL("")
+    metadataBase: new URL("https://ecommerce-mauve-eta-94.vercel.app/")
   }
 }
